@@ -64,6 +64,10 @@ h1.logo {
   margin: 0;
 }
 
+h1.logo a {
+  color: #2c2524;
+}
+
 
 .graymatter-header {
   padding: 30px 0 30px; 
