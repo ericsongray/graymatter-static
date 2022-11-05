@@ -406,3 +406,9 @@ textarea {
   display: none;
 }
 
+.success-message {
+  font-size: 49px;
+  line-height: 1.51em;
+  font-weight: 800;
+}
+
