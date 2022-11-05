@@ -402,3 +402,7 @@ textarea {
   top: -76px;
 }
 
+.hidden {
+  display: none;
+}
+

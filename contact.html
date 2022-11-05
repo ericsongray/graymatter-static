@@ -62,8 +62,9 @@
 
          <div class="contact-us-form-wrapper">
             <section class="contact-us-inner-form-wrapper">
-              <form name="contact" method="POST" data-netlify="true" onSubmit="submit" class="contact-form">
+              <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" onSubmit="submit" class="contact-form">
 
+                <input name="bot-field" class="hidden" />
                 <div class="input-wrapper">
                   <label for="name" class="field-label-extra-bold">Name</label>
                   <input type="text" class="input w-input" maxlength="256" name="name" data-name="Name" placeholder="Enter your name" id="name" required="">
