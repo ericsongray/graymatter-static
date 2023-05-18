@@ -170,6 +170,7 @@ a {
   max-width: 440px;
   object-fit: cover;
   border-radius: 16px;
+  border: solid 6px #d7d9da;
   margin-left: 24px;
 }
 
@@ -220,7 +221,7 @@ h3 {
 
 .animals img {
   border-radius: 16px;
-  border: solid 3px var(--intro-tint);
+  border: solid 6px var(--intro-tint);
 }
 
 footer {
