@@ -291,11 +291,12 @@ footer a {
 }
 
 .contact-us-form-wrapper {
+  /* outline: solid red; */
   /* margin-top: var(--spc-50); */
   position: relative;
   /* z-index: 1; */
   background-color: #fff;
-  width: 677px;
+  max-width: 677px;
   padding: 66px 46px;
   border: 1px solid #e0dbdb;
   border-radius: 20px;
@@ -474,6 +475,11 @@ textarea {
   .animal-row {
     flex-direction: column;
     gap: var(--spc-40);
+  }
+
+  .get-in-contact {
+    flex-direction: column;
+    gap: var(--spc-32);
   }
 
   .animals img {
