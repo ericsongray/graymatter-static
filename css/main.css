@@ -462,6 +462,10 @@ textarea {
   color: #2c2524;
 }
 
+.success {
+  height: 100vh;
+}
+
 
 @media (max-width: 640px) {
   .hero {
