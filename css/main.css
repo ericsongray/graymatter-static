@@ -476,6 +476,10 @@ textarea {
     gap: var(--spc-40);
   }
 
+  .animals img {
+    height: 300px;
+  }
+
   .navbar ul {
     margin: 50px 0 50px 60px;
   }
